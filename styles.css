@@ -1,0 +1,201 @@
+body {
+	color: #a6adc8;
+	font-size: 15px;
+	font-weight: normal;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #1d2234;
+}
+
+header {
+	position: relative;
+	min-height: 720px;
+	width: 100%;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/headerImg.jpg");
+	/*<span>Photo by <a href="https://unsplash.com/@titi_wanderer?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Thong Vo</a> on <a href="https://unsplash.com/collections/61398966/abstract-collection/b9e139179dd76945af8f0037c3848986?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>*/
+	background-repeat: no-repeat;
+	background-position: 50% 0;
+	background-size: cover;
+}
+
+header .banner {
+	padding: 125px 0 0 0;
+}
+
+footer p {
+	text-align: center;
+}
+
+.social {
+	margin: 24px 0;
+	padding: 0;
+	font-size: 40px;
+	line-height: 50px;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+.social li {
+	list-style-type: none;
+}
+
+.social a {
+	margin: 0 24px;
+	color: #ffffff;
+}
+
+img {
+	max-width: 100%;
+}
+
+h1 {
+	color: #ffffff;
+	letter-spacing: -1.5px;
+	font-size: 90px;
+	text-align: center;
+	padding: 15px 0 0;
+	border: 0;
+	margin: 0;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 22px;
+	font-weight: bold;
+}
+
+hr {
+	border: 0;
+	height: 1px;
+	width: 50%;
+	margin: 0 auto;
+	background: #333;
+	background-image: linear-gradient(to right, #333, #ccc, #333);
+}
+
+p {
+	margin: 0 0 30px 0;
+}
+
+.intro {
+	font-family: 'Libre Baskerville', serif;
+	color: #cacaca;
+	text-align: center;
+	font-size: 18px;
+	margin: 0 auto;
+	padding: 10px 0;
+	width: 45%;
+	line-height: 40px;
+}
+
+.intro strong {
+	color: #ffffff;
+}
+
+.row {
+	display: flex;
+	margin: 0 auto;
+	width: 96%;
+	max-width: 1020px;
+	margin: 0 238px;
+}
+
+.column {
+	position: relative;
+	padding: 20px;
+	min-height: 1px;
+	float: left;
+}
+
+.row .left {
+	width: 25%;
+}
+
+.row .right {
+	width: 75%;
+}
+
+.button {
+	display: inline-block;
+	text-decoration: none;
+	padding: 12px 20px;
+	margin-bottom: 18px;
+	border: none;
+	cursor: pointer;
+	height: auto;
+	transition: all .2s ease-in-out;
+	border-radius: 3px;
+}
+
+/* Nav bar styling */
+
+#nav-wrap {
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border-width: 1px 0;
+	list-style: none;
+	margin: 0;
+	padding: 10px 0 0 0;
+	text-align: center;
+}
+
+#nav-wrap li {
+	display: inline;
+}
+
+#nav-wrap li a {
+	display: inline-block;
+	padding: 8px 13px;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+/* About Me Section */
+.fa-download {
+	margin-right: 15px;
+}
+
+#about {
+	padding-top: 96px;
+	padding-bottom: 66px;
+	overflow: hidden;
+}
+
+#about .profile-pic {
+	position: relative;
+	width: 120px;
+	height: 120px;
+	border-radius: 100%;
+}
+
+#about h2 {
+	color: #ffffff;
+}
+
+#about p {
+	line-height: 30px;
+}
+
+#about .contact-details {
+	width: 41.7%;
+	padding: 0;
+}
+
+#about .download {
+	width: 58.3%;
+	padding-top: 6px;
+}
+
+#about .download .button {
+	margin-top: 6px;
+	background: #141829;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#about a,
+#about a:visited {
+	color: #ffffff;
+}
